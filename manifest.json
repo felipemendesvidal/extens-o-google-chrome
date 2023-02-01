@@ -3,9 +3,13 @@
     "name": "Screenshot clone",
     "description": "tira screenshots da pagina",
     "version": "1.0",
+    "browser_action": {
+        "default_popup": "index.html"
+      },
     "permissions": [
-      "contextMenus",
-      "activeTab"
+      "activeTab",
+    "declarativeContent",
+    "storage"
     ],
     "background": {
       "scripts": ["background.js"]
