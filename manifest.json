@@ -1,4 +1,4 @@
-{
+  {
     "manifest_version": 2,
     "name": "Screenshot clone",
     "description": "tira screenshots da pagina",
@@ -7,6 +7,8 @@
         "default_popup": "index.html"
       },
     "permissions": [
+      "contextMenus",
+      "tabs",
       "activeTab",
     "declarativeContent",
     "storage"
@@ -21,4 +23,3 @@
       }
     ]
   }
-  
